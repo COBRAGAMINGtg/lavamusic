@@ -40,7 +40,7 @@ export default class Invite extends Command {
 				.setLabel(ctx.locale(I18N.buttons.invite))
 				.setStyle(ButtonStyle.Link)
 				.setURL(
-					`https://discord.com/api/oauth2/authorize?client_id=${client.env.CLIENT_ID}&permissions=8&scope=bot%20applications.commands`,
+					`https://discord.com/oauth2/authorize?client_id=1542234512883458172&permissions=8&integration_type=0&scope=bot+applications.commands`,
 				),
 			new ButtonBuilder()
 				.setLabel(ctx.locale(I18N.buttons.support))
